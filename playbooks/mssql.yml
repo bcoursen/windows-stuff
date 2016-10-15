@@ -1,5 +1,5 @@
 - name: Install Microsoft SQL Server
-  hosts: "{{ target_hosts | default('mssql') }}"
+  hosts: "{{ target_hosts | default('all') }}"
   become: no
 
   roles:
