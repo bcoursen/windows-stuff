@@ -1,3 +1,0 @@
-- name: mssql
-  src: git@github.com:bcoursen/mssql.git
-  scm: git
